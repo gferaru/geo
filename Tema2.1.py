@@ -1,7 +1,10 @@
-def f(x):
-    if x % 2 == 0:
+def f(k):
+    if k % 2 == 0:
         var = int (x * (x + 2) / 4)
-    if x < 10 or x > 20:
-        print(x)
+#       print(var)       
+    if k < 10 or k > 20:
+        print(k)
+        
+        
 for x in range(0,100):
     f(x)
