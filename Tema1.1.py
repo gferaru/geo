@@ -1,4 +1,5 @@
 import random
+
 j = generated = random.randint(0,100)
 i = int(input("Alege_numar: "))
 while i != j:
