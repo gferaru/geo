@@ -14,17 +14,17 @@ class mate():
 	first = {}
 	second = {}
 	def adunare(self):
-		rezultat = "%.2f" % (instance.first + instance.second)
+		rezultat = "%.2f" % (self.first + self.second)
 		print(("{0} + {1} =".format(self.first , self.second)), rezultat)
 	def scadere(self):
-		rezultat = "%.2f" % (instance.first - instance.second)
+		rezultat = "%.2f" % (self.first - self.second)
 		print(("{0} - {1} =".format(self.first , self.second)), rezultat)
 	def inmultire(self):
-		rezultat = "%.2f" % (instance.first * instance.second)
+		rezultat = "%.2f" % (self.first * self.second)
 		print(("{0} * {1} =".format(self.first , self.second)), rezultat)
 	def impartire(self):
 		try:
-			rezultat = "%.2f" % (instance.first / instance.second)
+			rezultat = "%.2f" % (self.first / self.second)
 			print(("{0} / {1} =".format(self.first , self.second)), rezultat)
 		except ZeroDivisionError:
 			print("Nu se poate imparti la zero!")
